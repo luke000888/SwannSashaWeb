@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>OpenPaper</title><!-- le nom du fichier sur onglet -->
+
+    </head>
+
+    <body>
+      <div class="header">
+    <a href="index.html" class="logo">OPENPAPER</a>
+      <div class="header-right">
+        <a class="active" href="index.html" id = "Home">Home</a>
+         <a href="mailto:sasha.sfty@gmail.com">Contact</a>
+         <a href="#time" id = "date"></a>
+         <a href="infos" class="active">Informations</a>
+         <a href="Renseignement" class="active">Se renseigner</a>
+         <a href="catégories" class="active">Categories d'articles</a>
+         <a href="redaction" class="active">Redaction</a>
+      </div>
+		</div>
+		<div class="navigationbar">
+			<a href="culture.html">CULTURE</a>
+			<a href="politique.html">POLITIQUE</a>
+			<a href="economie.html">ECONOMIE</a>
+			<a href="FaitsDivers.html">FAITS DIVERS</a>
+		</div>
+		<div class="joke">
+			<form style="text-align: center;" nsubmit="return false" >
+			  <label for="conf">Le confinement finira dans </label>
+			  <input type="text" id="JoursConfin" name="JoursConfin" style="width: 30px;">
+			  <label for="conf"> jours</label>
+			  <input type="button" value="vérifier" onclick="blague()">
+		</form>
+		</div>
+
+		 <div class="leftcolumn">
+		 	<div class="card">
+		 		<h2>L'après 11 mai: un déconfinement envisageable?</h2>
+			    <h5>24 décembre 2020</h5>
+			    <div class ="imgBox">
+			    	<img src="IMG/macron.jpeg" alt="macron" class = "imgCard">
+			    </div>
+			    <p>Le chef de l’Etat a livré jeudi devant des maires des précisions sur ce que l’exécutif envisage pour la levée du confinement</p>
+			    <p>Ils sont vingt-deux maires, avec qui Emmanuel Macron était en visioconférence ce jeudi 23 avril, à avoir eu la primeur des<span id="TroisPoints_Carte1">...</span><span id="Plus1" class='Plus'> derniers arbitrages concernant le « défi logistique et organisationnel » de l'après-11 mai en pleine épidémie de Covid-19. En attendant une feuille de route précise, « probablement mardi », le chef de l'Etat leur a tout d'abord annoncé que le déconfinement ne se ferait « pas de manière régionalisée » mais dans le cadre d'un plan « national », selon l'Elysée. <br><br>
+			    Si le point d'interrogation demeure sur les transports interrégionaux, Emmanuel Macron écarte donc la piste d'un déconfinement par région. « Le virus ne connaît pas les frontières administratives », a dit le président de la République, selon un participant. En somme, résume le maire LREM de Nevers (Nièvre), Denis Thuriot, « les problématiques peuvent varier au sein d'une même région ». Au grand dam de certains de leurs présidents, favorables, à un déconfinement « différencié ». Président de régions avec lesquels le Premier ministre Edouard Philippe a échangé dans la foulée.Macron a tranché, l'« adaptation » sera plus locale encore. Une demande des édiles. « Au début de la crise, il ne s'est pas assez appuyé sur les maires, ce n'est pas dans sa culture, glisse un élu LR. Il a pris conscience qu'ils seraient les premiers acteurs du déconfinement. Il doit s'assurer le soutien de ceux qui ont cette légitimité démocratique. »<br><br>
+				D'autant que, reconnaît le maire de Toulouse (Haute-Garonne) Jean-Luc Moudenc, il s'agit là d'« un casse-tête » sans nom. Complexité supplémentaire, l'Elysée raisonne en termes de « bassins de vie ». « Si l'on veut faire trop simple et que l'on calque un modèle national qui soit le même partout, ça ne marchera pas. On se donnera l'illusion de la facilité, mais on se heurtera à la réalité », décrypte Moudenc.</span></p>
+				<button onclick="LirePlus('TroisPoints_Carte2', 'Plus2', 'Boutton2')" id="Boutton2">+</button></p>
+    		</div>
+		</div>
+		<!-- le footer/ bs de page -->
+    	<div class="footer">
+
+	    		<!-- le popup -->
+			<div class="ChangeCSS">
+				<form >
+				  <label for="fname">Background color:</label>
+				  <input type="text" id="color" name="color">
+				  <input type="button" value="Ok" onclick="CouleurBackground()">
+				</form>
+			</div>
+			<div>
+				<a href="https://www.facebook.com">Facebook</a>
+				<a href="https://www.twitter.com">Twitter</a>
+				<a href="https://www.instagram.com">Instagram</a>
+				<a href="https://www.linkedin.com">LinkedIn</a>
+			</div>
+		</div>
+
+</div>
+
+    </body>
+    <script type="text/javascript" src="./script.js"></script>
+</html>

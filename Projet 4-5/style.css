@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* parametres de tout, general */
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	color: #404040;
+}
+
+/* En-tête de page*/
+
+/* toute l'en-tete*/
+.header
+{
+  padding: 20px 20px;
+  font-family: Garamond;
+}
+
+.logo
+{
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 5px;
+  color : #c0addd;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.logo:hover
+{
+  color: #404040 ;
+}
+
+/* home active -> background fonce */
+
+.header a.active
+{
+	background-color: #e2dfdf;
+}
+
+/* block a droite (home, contact, date) */
+
+.header-right
+{
+  float: right;
+}
+
+.header-right a
+{	
+  color: #404040;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.header-right a:hover
+{
+	color: #c0addd;
+}
+
+/* Barre de navigation*/
+
+.navigationbar
+{
+  overflow: hidden;
+  margin: auto;
+  font-family: Garamond;
+  text-align: center;
+}
+
+.navigationbar a
+{
+  font-size: 18px;
+  color: #404040;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  float: inherit;
+}
+
+.navigationbar a:hover
+{
+color: #c0addd;
+}
+
+.navigationbar a.active
+{
+  background-color: #e2dfdf;
+}
+
+/* joke*/
+
+.joke
+{
+	margin:auto;
+	padding: 10px;
+}
+
+/* Article 1er*/
+
+.leftcolumn
+{   
+  width: 80%;
+  margin: auto;
+  border-radius: :5px;
+}
+
+
+/* la box de l'article*/
+
+/* carte ou se trouve l'article */
+
+.card {
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 5px;
+   background: white;
+}
+
+/* dans carte, cadre image defini dans longueur largeur */
+
+.imgBox {
+	width:100%;
+	height:450px;
+}
+
+/* proprietes de l'image */
+
+.imgCard{
+	float:left;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	border-radius: :5px;
+}
+
+/* bas de page */
+
+.footer
+{
+  overflow: hidden;
+  margin: auto;
+}
+
+.footer a
+{
+  font-size: 18px;
+  color: #404040;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  float: right;
+}
+
+/* parametres changer css background */
+
+.ChangeCSS
+{
+	text-align: center; float: left; padding : 30px;
+}
+
+/* proprietes lire plus */
+
+.Plus {
+	display: none;
+}
